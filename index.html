@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><button onclick="clearData()">C</button></td>
+            <td colspan="3"><input type="text" id="txtValue"></td>
+        </tr>
+        <tr>
+            <td><button onclick="storeData('+')">+</button></td>
+            <td><button onclick="storeData('1')">1</button></td>
+            <td><button onclick="storeData('2')">2</button></td>
+            <td><button onclick="storeData('3')">3</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="storeData('-')">-</button></td>
+            <td><button onclick="storeData('4')">4</button></td>
+            <td><button onclick="storeData('5')">5</button></td>
+            <td><button onclick="storeData('6')">6</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="storeData('*')">*</button></td>
+            <td><button onclick="storeData('7')">7</button></td>
+            <td><button onclick="storeData('8')">8</button></td>
+            <td><button onclick="storeData('9')">9</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="storeData('/')">/</button></td>
+            <td><button onclick="storeData('.')">.</button></td>
+            <td><button onclick="storeData('0')">0</button></td>
+            <td><button onclick="calData('=')">=</button></td>
+        </tr>
+    </table>
+    
+</body>
+
+</html>
